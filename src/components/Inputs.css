@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,176,174);
+    background: radial-gradient(circle, rgba(238,176,174,1) 0%, rgba(148,163,233,1) 100%);
+}
+
+.container{
+    background-color: aliceblue ;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+/* //////////
+    titulos
+  ////////// */
+
+ .titulo{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+ }
+
+ .btn{
+    background:#eeb0ae ;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+ }
+
+ .input{
+    width: 60%;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    padding: 0.5rem;
+ }
+
+
+ /* //////////
+    HEADER
+  ////////// */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 1px solid #eeb0ae65 ;
+    padding-bottom: 1rem;
+}
+
+.usuarioEncontrado{
+    text-align: center;
+    font-size: 0.8rem;
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+ /* //////////
+    FORM
+  ////////// */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 1px solid #eeb0ae65 ;
+    padding-bottom: 1rem;
+}
+
+ /* //////////
+LISTA COLABORADORES
+  ////////// */
+
+  .contenedor-lista p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .nombreColaborador{
+    font-weight: 600;
+  }
